@@ -207,10 +207,10 @@ def func(question):
 
 	elif(question == 'Who create you'or question == 'Who made you' or question 
 		== 'Who built you'):
-		chat_window.insert(END, "Root : Amresh Ranjan built me!" + '\n\n')
+		chat_window.insert(END, "Root : Amresh Ranjan Sir built me!" + '\n\n')
 
 	elif(question == 'How are you'):
-		chat_window.insert(END, "Root : I am Good!" + '\n\n')
+		chat_window.insert(END, "Root : I am Good Sir!" + '\n\n')
 		
 	elif(question == 'Tell me about yourself'):
 		chat_window.insert(END, "Root : I am System Assistent which work on your system functions" + '\n\n')
@@ -225,7 +225,7 @@ def func(question):
 	elif(question == 'Who are you' or question == 'who are you' or question ==
 		'whats your name' or question == 'your name' or question == 'what is your name'
 		or question == 'What is your name'):
-		chat_window.insert(END, "Root : I am Virtual ChatBot Assistance, My Name is Root" 
+		chat_window.insert(END, "Root : I am Virtual ChatBot Assistance, My Name is Root for Now" 
 			+ '\n\n')
 
 	elif(question == 'End' or question == 'Destroy' or question == 'Quit'or 
